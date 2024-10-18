@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RX</title>
+    <link rel="stylesheet" href="../../css/style.css" >
+    <link rel="stylesheet" href="../../css/swiper/swiper-bundle.min.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Шапка -->
+       <div class="logo">
+        <a href="../../index.html">
+          <img src="../image/nav/logo.png" alt="">
+        </a>
+       </div>
+       <nav class="nav">
+        <ul>
+          <li><a href="./about.html">О нас</a></li>
+          <li><a href="./contacts.html">Контакты</a></li>
+          <li><a href="./entry.html">Запись</a></li>
+          <li><a href="./admin.html">Админ панель</a></li>
+          <li><a href="./catalog.html">Каталог услуг</a></li>
+        </ul>
+        <div class="nav_img">
+          <a href="./profile.html">
+            <img src="../image/nav/customer.png" alt="#">
+          </a>
+          <a href="#">
+            <img src="../image/nav/moon.png" alt="#">
+          </a>
+        </div>
+       </nav>
+       <div class="burger">
+        <span></span>
+       </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slider_img">
+              <img src="../image/2b358b93696efaf07361e3d6e88685d7 1.png" alt="">
+            </div>
+            <div class="swiper_content">
+              <h2>Забота о вашем здоровье</h2>
+              <p>
+                Наша клиника направлена на предоставление высококачественного медицинского обслуживания, основанного на уважении и внимании к каждому пациенту. Мы стремимся улучшать здоровье и качество жизни наших клиентов.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider_img">
+              <img src="../image/almaznoe_zdorove_khokhlov_sergey 1.png" alt="">
+            </div>
+            <div class="swiper_content">
+              <h2>Команда экспертов</h2>
+              <p>
+                Мы гордимся своим квалифицированным и опытным медицинским персоналом, который состоит из врачей, медсестер и специалистов разных направлений. Наша команда работает с готовностью предоставлять услуги на самом высоком уровне.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="slider_img">
+              <img src="../image/slider.png" alt="">
+            </div>
+            <div class="swiper_content">
+              <h2>Современные технологии</h2>
+              <p>
+                Мы используем передовые методы диагностики и лечения, чтобы обеспечить максимальную эффективность в нашей работе. Оснащение нашей клиники современным медицинским оборудованием позволяет нам достигать лучших результатов.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="slider_img">
+              <img src="../image/comfort.jpg" alt="">
+            </div>
+            <div class="swiper_content">
+              <h2>Комфорт и удобство</h2>
+              <p>
+                Мы понимаем, насколько важны комфорт и удобство при посещении клиники. Поэтому мы предлагаем удобное расположение, комфортные условия ожидания и индивидуальный подход к каждому пациенту.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="slider_img">
+              <img src="../image/view.jpeg" alt="">
+            </div>
+            <div class="swiper_content">
+              <h2>Ваше мнение важно</h2>
+              <p>
+                Мы ценим каждое мнение наших пациентов. Ваши отзывы помогают нам совершенствоваться и предоставлять услуги на более высоком уровне. Делитесь вашим опытом, чтобы сделать нашу клинику еще лучше!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <p>© 2024 Все права защищены</p>
+      </div>
+    </footer>
+    <script src="../../css/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+      document.querySelector('.burger').addEventListener('click',function() {
+        this.classList.toggle('active');
+        document.querySelector('.nav').classList.toggle('open');
+      })
+     </script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RX</title>
+    <link rel="stylesheet" href="../../css/style.css" id="theme">
+  </head>
+  <body id="app">
+    <!-- Header -->
+    <header class="header">
+      <!-- Шапка -->
+       <div class="logo">
+        <a href="../../index.html">
+          <img src="../image/nav/logo.png" alt="">
+        </a>
+       </div>
+       <nav class="nav">
+        <ul>
+          <li><a href="./about.html">О нас</a></li>
+          <li><a href="./contacts.html">Контакты</a></li>
+          <li><a href="./entry.html">Запись</a></li>
+          <li><a href="./admin.html">Админ панель</a></li>
+          <li><a href="./catalog.html">Каталог услуг</a></li>
+        </ul>
+        <div class="nav_img">
+          <a href="./profile.html">
+            <img src="../image/nav/customer.png" alt="#">
+          </a>
+          <a href="#">
+            <img src="../image/nav/moon.png" alt="#">
+          </a>
+        </div>
+       </nav>
+       <div class="burger">
+        <span></span>
+       </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <section class="contacts">
+          <div class="contact_heading">
+            <h1>Общая информация о клинике:</h1>
+          </div>
+          <div class="contact_info">
+            <h2>
+              Клиника RX — это современное медицинское учреждение в самом сердце
+              Альметьевска, предоставляющее широкий спектр услуг по обеспечению
+              здоровья и благополучия наших пациентов.
+            </h2>
+          </div>
+          <div class="contact_table">
+            <div class="contact_row">
+              <h3>График работы</h3>
+              <p>
+                Пн.- Пт: 9:00 – 18:00 <br />
+                Сб: 10:00 – 15:00 <br />
+                Вс: выходной
+              </p>
+            </div>
+            <hr />
+            <div class="contact_row">
+              <h3>Адрес</h3>
+              <p>г. Альметьевск, ул. Ленина, д. 123</p>
+              <h3>Почта регистратуры</h3>
+              <p>mailto:info@rx-clinic.ru</p>
+            </div>
+            <hr />
+            <div class="contact_row">
+              <h3>Где припарковать автомобиль?</h3>
+              <p>Рядом с клиникой расположена муниципальная платная парковка</p>
+            </div>
+          </div>
+          <div class="subtitle">
+            <h2>Приходите к нам на прием</h2>
+          </div>
+          <div class="contact_cards">
+            <div class="contact_card">
+              <h2>Клиника на Ленина</h2>
+              <p>
+                Адрес: <br />
+                г. Альметьевск, ул. Ленина, д. 123
+              </p>
+              <div class="contact_button">
+                <a href="./entry.html">Записаться</a>
+              </div>
+            </div>
+            <div class="contact_card">
+              <h2>Клиника на Чистопольской</h2>
+              <p>
+                Адрес: <br />
+                г. Казань, ул. Чистопольская, 16/15
+              </p>
+              <div class="contact_button">
+                <a href="./entry.html">Записаться</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact_img">
+            <img src="../image/contact.png" alt="#" >
+          </div>
+        </section>
+      </div>
+      <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/11121/almetyevsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Альметьевск</a><a href="https://yandex.ru/maps/11121/almetyevsk/house/ulitsa_lenina_123/YUsYdAFlTkYCQFtufXR4eHVqZA==/?ll=52.265735%2C54.899990&source=serp_navig&utm_medium=mapframe&utm_source=maps&z=17.12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Ленина, 123 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=52.265735%2C54.899990&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NTg3MDg5NBKAAdCg0L7RgdGB0LjRjywg0KDQtdGB0L_Rg9Cx0LvQuNC60LAg0KLQsNGC0LDRgNGB0YLQsNC9ICjQotCw0YLQsNGA0YHRgtCw0L0pLCDQkNC70YzQvNC10YLRjNC10LLRgdC6LCDRg9C70LjRhtCwINCb0LXQvdC40L3QsCwgMTIzIgoNHRBRQhWXmVtC&source=serp_navig&z=17.12" width="1920" height="700" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </main>
+    <!-- Footer -->
+    <div class="fater">
+      <div class="footer">
+        <p>© 2024 Все права защищены</p>
+      </div>
+    </div>
+    <script src="../../theme.js"></script>
+    <script>
+      document.querySelector('.burger').addEventListener('click',function() {
+        this.classList.toggle('active');
+        document.querySelector('.nav').classList.toggle('open');
+      })
+     </script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RX</title>
+    <link rel="stylesheet" href="../../css/style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Шапка -->
+       <div class="logo">
+        <a href="../../index.html">
+          <img src="../image/nav/logo.png" alt="">
+        </a>
+       </div>
+       <nav class="nav">
+        <ul>
+          <li><a href="./about.html">О нас</a></li>
+          <li><a href="./contacts.html">Контакты</a></li>
+          <li><a href="./entry.html">Запись</a></li>
+          <li><a href="./admin.html">Админ панель</a></li>
+          <li><a href="./catalog.html">Каталог услуг</a></li>
+        </ul>
+        <div class="nav_img">
+          <a href="./profile.html">
+            <img src="../image/nav/customer.png" alt="#">
+          </a>
+          <a href="#">
+            <img src="../image/nav/moon.png" alt="#">
+          </a>
+        </div>
+       </nav>
+       <div class="burger">
+        <span></span>
+       </div>
+    </header>
+    <!-- Main -->
+    <main class="main_entry">
+      <div class="container">
+        <section class="entry">
+          <div class="heading">
+            <h1>Запись на прием к врачу</h1>
+            <h2>Добро пожаловать в клинику RX! Мы рады помочь вам заботиться о вашем здоровье. Чтобы сделать процесс записи на прием к врачу максимально удобным и быстрым, следуйте нашим простым инструкциям.</h2>
+          </div>
+          <div class="entry_text">
+            <h3>Способы записи: </h3>
+            <ul>
+              <h3>1. Онлайн-запись</h3>
+              <li>Используйте нашу удобную форму онлайн-записи. Просто выберите нужного специалиста, дату и время приема. После заполнения формы вы получите подтверждение на указанный вами адрес электронной почты или по  телефону.</li>
+              <h3>2. Запись по телефону</h3>
+              <li>Вы можете записаться на прием, позвонив нам по телефону: (111) 123-45-67. Наши операторы работают с 9:00 до 18:00 и с радостью ответят на все ваши вопросы.</li>
+              <h3>3. Запись через мессенджеры</h3>
+              <li>Напишите нам в WhatsApp или Telegram по номеру (111) 123-45-67. Мы ответим вам в течение 15 минут и поможем с записью.</li>
+            </ul>
+          </div>
+          <div class="entry_preparation">
+            <h3>Подготовка к приему:</h3>
+            <ul>
+              <h3>Для того чтобы ваш визит прошел максимально эффективно, рекомендуем:</h3>
+              <li>Принести все медицинские документы, результаты анализов и исследования, если таковые имеются.</li>
+              <li>Подготовить список вопросов или жалоб к врачу, чтобы не забыть важные моменты.</li>
+              <li>Если необходимо, возьмите с собой страховой полис и документ, удостоверяющий личность.</li>
+            </ul>
+          </div>
+          <div class="entry_end">
+            <h1>Запись на прием к врачу</h1>
+            <div class="entry_forms">
+              <div class="entry_form">
+                <h2>Заполните форму</h2>
+                <div class="entry_input">
+                  <input type="text" placeholder="Введите свой номер телефона">
+                  <input type="text" placeholder="Введите свое имя">
+                  <input type="email" placeholder="Введите свою электронную почту">
+                  <select name="service">
+                    <optgroup label="Выберите услугу"></optgroup>
+                    <optgroup label="Консультация">
+                       <option value="value">Терапевт</option>
+                      <option value="value1">Кардиолог</option>
+                      <option value="value2">Педиатр</option>
+                      <option value="value3">Гинеколог</option>
+                    </optgroup>
+                     <optgroup label="Диагностика">
+                       <option value="value4">Рентгенография</option>
+                      <option value="value5">Лабораторные анализы</option>
+                      <option value="value6">Компьютерная томография</option>
+                     </optgroup>
+                  </select>
+                </div>
+                <div class="contain">
+                  <button type="submit" class="btnn">Отправить</button>
+                  <div class="popu" id="popu">
+                      <img src="../image/success-100-green.png" alt="">
+                      <h2>Спасибо за вашу заявку!</h2>
+                      <p>Ваше сообщение успешно отправлено. Мы очень ценим ваше время и интерес к нашим услугам.</p>
+                      <button type="button" class='close'>Хорошо</button>
+                  </div>
+                </div>
+              </div>
+              <div class="entry_form">
+                <h2>Пожалуйста оставьте отзыв</h2>
+                <div class="entry_input">
+                  <input type="text" placeholder="Введите свое имя">
+                  <input type="text" placeholder="Введите свою электронную почту">
+                  <select name="estimation">
+                      <option value="very_good">Отлично</option>
+                      <option value="good">Хорошо</option>
+                      <option value="normal">Удовлетворительно</option>
+                      <option value="bad">Плохо</option>
+                      <option value="very_bad">Ужасно</option>
+                  </select>
+                  <textarea  name = "auth_msg" rows = "3">Оставьте ваш комментарий</textarea>
+                </div>
+                <button class="button3">
+                  <a href="#">Отправить</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <p>© 2024 Все права защищены</p>
+      </div>
+     </footer>
+     <script src="../js/script.js"></script>
+     <script>
+      document.querySelector('.burger').addEventListener('click',function() {
+        this.classList.toggle('active');
+        document.querySelector('.nav').classList.toggle('open');
+      })
+     </script>
+  </body>
+</html>
